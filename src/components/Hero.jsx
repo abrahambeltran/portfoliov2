@@ -22,9 +22,17 @@ const Hero = () => {
                         whilst learning new skills and developing as a
                         programmer and systems designer.
                     </p>
-                    <button className="bg-[#fe5944] text-[white] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3">
-                        Resume
-                    </button>
+                    <div className="grid grid-cols-3 justify-evenly">
+                        <button className="bg-[#fe5944] text-[white] w-[100px] p-3 rounded-md font-medium my-6 mx-auto md:mx-0 py-3">
+                            Resume
+                        </button>
+                        <button className="bg-[#fe5944] text-[white] w-[100px] p-3 rounded-md font-medium my-6 mx-auto md:mx-0 py-3">
+                            <i class="devicon-github-original-wordmark colored" />
+                        </button>
+                        <button className="bg-[#fe5944] text-[white] w-[100px] p-3 rounded-md font-medium my-6 mx-auto md:mx-0 py-3">
+                            <i class="devicon-linkedin-plain-wordmark"></i>
+                        </button>
+                    </div>
                 </div>
                 {/* second column */}
                 <div>
