@@ -45,7 +45,7 @@ const Projects = () => {
                         stored in an SQLite database and run on an ubuntu server
                         using nginx and gunicorn.
                     </p>
-                    <p className="p-3 text-[#385FDB] font-bold">
+                    <p className="p-3 text-[#FCFFFA] font-bold">
                         Python, SQLite, React, Javascript, APIs
                     </p>
                 </div>
@@ -74,7 +74,7 @@ const Projects = () => {
                         stored in an SQLite database and run on an ubuntu server
                         using nginx and gunicorn.
                     </p>
-                    <p className="p-3 text-[#385FDB] font-bold">
+                    <p className="p-3 text-[#FCFFFA] font-bold">
                         Python, SQLite, React, Javascript, APIs
                     </p>
                 </div>
@@ -93,7 +93,7 @@ const Projects = () => {
                         stored in an SQLite database and run on an ubuntu server
                         using nginx and gunicorn.
                     </p>
-                    <p className="p-3 text-[#385FDB] font-bold">
+                    <p className="p-3 text-[#FCFFFA] font-bold">
                         Python, SQLite, React, Javascript, APIs
                     </p>
                 </div>
