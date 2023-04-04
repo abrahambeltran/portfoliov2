@@ -14,14 +14,12 @@ const About = () => {
                     </p>
                     <p className="text-[black]">
                         Hello! My name is Abraham and I enjoy programming and
-                        creating for the internet. My interest in web
-                        development started in 2019 when Covid-19 just started
-                        to make a buzz. Fast-forward to today, and I’ve had the
-                        privilege of going to Florida State University one of
-                        the top universities in the state of Florida. My main
-                        focus these days is building accessible, inclusive
-                        products and digital experiences at Upstatement for a
-                        variety of clients.
+                        creating programs for the internet. I've had a lifetime
+                        passion for technology and I’ve had the privilege of
+                        going to Florida State University to further my
+                        education on how to build, maintain, and secure tech. My
+                        main focus these days is building accessible, innovative
+                        products and digital experiences.
                     </p>
                 </div>
                 <div className="p-16 grid grid-flow-row bg-[#FCFFFA] rounded-3xl col-span-1 shadow-lg">

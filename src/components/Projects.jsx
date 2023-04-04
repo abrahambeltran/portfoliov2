@@ -7,7 +7,7 @@ const Projects = () => {
                 rel="stylesheet"
                 href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
             />
-            <div className="grid grid-cols-4 p-4 max-w-[1240px] my-[20px] mx-auto">
+            <div className="grid sm:grid-cols-2 md:grid-cols-4 p-4 max-w-[1240px] my-[20px] mx-auto">
                 <div className="mx-auto grid col-span-2 justify-center p-5 bg-[#FE5944] shadow-lg ">
                     <p className="md:text-xl sm:text-l text-l font-bold p-3 text-[#FCFFFA]">
                         Personal Financial Dashboard
@@ -30,7 +30,7 @@ const Projects = () => {
                     </p>
                 </div>
             </div>
-            <div className="grid grid-cols-4 p-4 max-w-[1240px] my-[20px] mx-auto">
+            <div className="grid sm:grid-cols-2 md:grid-cols-4 p-4 max-w-[1240px] my-[20px] mx-auto">
                 <div className="grid grid-flow-row col-span-2">
                     <p className="md:text-5xl sm:text-3xl text-2xl bg-gray-300 p-1/2 flex justify-around shadow-lg">
                         <img src="/src/assets/PyNews.png" className="" />
@@ -53,7 +53,7 @@ const Projects = () => {
                     </p>
                 </div>
             </div>
-            <div className="grid grid-cols-4 p-4 max-w-[1240px] my-[20px] mx-auto">
+            <div className="grid sm:grid-cols-2 md:grid-cols-4 p-4 max-w-[1240px] my-[20px] mx-auto">
                 <div className="grid grid-flow-row col-span-2">
                     <p className="md:text-5xl sm:text-3xl text-2xl bg-gray-300 p-1/2 flex justify-around shadow-lg">
                         <img src="/src/assets/PyNews.png" className="" />
@@ -76,7 +76,7 @@ const Projects = () => {
                     </p>
                 </div>
             </div>
-            <div className="grid grid-cols-4 p-4 max-w-[1240px] my-[20px] mx-auto">
+            <div className="grid sm:grid-cols-2 md:grid-cols-4 p-4 max-w-[1240px] my-[20px] mx-auto">
                 <div className="mx-auto grid col-span-2 justify-center p-5 bg-[#FE5944] shadow-lg ">
                     <p className="md:text-xl sm:text-l text-l font-bold p-3 text-[#FCFFFA]">
                         Color Theme Picker
@@ -99,7 +99,7 @@ const Projects = () => {
                     </p>
                 </div>
             </div>
-            <div className="grid grid-cols-4 p-4 max-w-[1240px] my-[20px] mx-auto">
+            <div className="grid sm:grid-cols-2 md:grid-cols-4 p-4 max-w-[1240px] my-[20px] mx-auto">
                 <div className="grid grid-flow-row col-span-2">
                     <p className="md:text-5xl sm:text-3xl text-2xl bg-gray-300 p-1/2 flex justify-around shadow-lg">
                         <img src="/src/assets/PyNews.png" className="" />

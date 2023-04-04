@@ -7,8 +7,8 @@ const Hero = () => {
                 rel="stylesheet"
                 href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
             />
-            <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 gap-6 p-4">
-                <div className="p-16 grid grid-flow-row bg-[#FCFFFA] rounded-3xl shadow-lg">
+            <div className="max-w-[1240px] mx-auto grid lg:grid-cols-2 grid-cols-1 gap-6 p-4">
+                <div className="mx-auto text-left flex flex-col justify-center p-16 bg-[#FCFFFA] rounded-3xl shadow-lg">
                     <p className="md:text-5xl sm:text-3xl text-2xl text-[#fe5944] font-bold ">
                         Hi, I'm Abraham Beltran
                     </p>
@@ -17,20 +17,19 @@ const Hero = () => {
                     </h1>
                     <p>
                         I'm currently focused on finding a software development
-                        job to kick-off my career. I look forward to
-                        contributing to a professional business environment
-                        whilst learning new skills and developing as a
-                        programmer and systems designer.
+                        job and I look forward to contributing to a professional
+                        environment whilst learning new skills and developing as
+                        a programmer and systems designer.
                     </p>
-                    <div className="grid grid-cols-3 justify-evenly">
-                        <button className="bg-[#fe5944] text-[white] w-[100px] p-3 rounded-md font-medium my-6 mx-auto md:mx-0 py-3">
+                    <div className="grid grid-cols-3 grid-rows-1 gap-4 p-3">
+                        <button className="bg-[#fe5944] text-[white] w-[100px] h-[50px] rounded-md font-medium my-6 mx-auto md:mx-0">
                             Resume
                         </button>
-                        <button className="bg-[#fe5944] text-[white] w-[100px] p-3 rounded-md font-medium my-6 mx-auto md:mx-0 py-3">
-                            <i class="devicon-github-original-wordmark colored" />
+                        <button className="w-[80px] h-[50px] rounded-md my-6 mx-auto md:mx-0">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                         </button>
-                        <button className="bg-[#fe5944] text-[white] w-[100px] p-3 rounded-md font-medium my-6 mx-auto md:mx-0 py-3">
-                            <i class="devicon-linkedin-plain-wordmark"></i>
+                        <button className="w-[80px] h-[50px] rounded-md my-6 mx-auto md:mx-0">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original-wordmark.svg" />
                         </button>
                     </div>
                 </div>
