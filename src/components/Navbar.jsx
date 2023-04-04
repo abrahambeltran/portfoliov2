@@ -9,7 +9,7 @@ const Navbar = () => {
     };
 
     return (
-        <div className="bg-[#f5f5f5] backdrop-filter backdrop-blur-lg bg-opacity-30 flex justify-center items-center h-24 fill mx-auto px-4 sticky top-0 z-50 shadow">
+        <div className="bg-[#f5f5f5] backdrop-filter backdrop-blur-lg bg-opacity-40 flex justify-center items-center h-24 fill mx-auto px-4 sticky top-0 z-50 shadow">
             <div className="bg-[#ebebeb] text-black flex justify-center items-center rounded-full p-1">
                 <ul class="flex">
                     <li>
