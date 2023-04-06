@@ -22,6 +22,14 @@ const Navbar = () => {
                     </li>
                     <li>
                         <a
+                            className="inline-block rounded-full py-1 px-4 font-medium active-bg-[#b84030]"
+                            href="#"
+                        >
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a
                             className="inline-block rounded-full py-1 px-4 font-medium active:bg-[#b84030]"
                             href="#"
                         >

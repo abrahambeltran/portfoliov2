@@ -7,119 +7,100 @@ const Projects = () => {
                 rel="stylesheet"
                 href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
             />
-            <div className="grid sm:grid-cols-2 md:grid-cols-4 p-4 max-w-[1240px] my-[20px] mx-auto">
-                <div className="mx-auto grid col-span-2 justify-center p-5 bg-[#FE5944] shadow-lg ">
-                    <p className="md:text-xl sm:text-l text-l font-bold p-3 text-[#FCFFFA]">
-                        Personal Financial Dashboard
-                    </p>
-                    <p className="md:text-sm sm:text-sm text-sm p-3">
-                        PyNews is written with Python using the Flask framework.
-                        React was used for styling/managing the front end and
-                        Javascript was used in conjunction with Python to call
-                        the HackerNews API and sort the news. All information is
-                        stored in an SQLite database and run on an ubuntu server
-                        using nginx and gunicorn.
-                    </p>
-                    <p className="p-3 text-[#FCFFFA] font-bold">
-                        Python, SQLite, React, Javascript, APIs
-                    </p>
-                </div>
-                <div className="grid grid-flow-row col-span-2">
-                    <p className="md:text-5xl sm:text-3xl text-2xl bg-gray-300 p-1/2 flex justify-around shadow-lg">
+            <div class="wrap max-w-[1240px] my-[20px] mx-auto p-4">
+                <div className="grid grid-cols-10">
+                    <div className="z-20 row-span-full col-span-6 col-end-6 self-center p-4 bg-[#FE5944] text-[#FCFFFA]">
+                        <p className="md:text-xl sm:text-l text-l font-bold p-3">
+                            Personal Financial Dashboard
+                        </p>
+                        <p className="md:text-sm sm:text-sm text-sm p-3">
+                            PyNews is written with Python using the Flask
+                            framework. React was used for styling/managing the
+                            front end and Javascript was used in conjunction
+                            with Python to call the HackerNews API and sort the
+                            news. All information is stored in an SQLite
+                            database and run on an ubuntu server using nginx and
+                            gunicorn.
+                        </p>
+                        <p className="p-3 text-[#FCFFFA] font-bold">
+                            Python, SQLite, React, Javascript, APIs
+                        </p>
+                    </div>
+                    <div className="row-span-full col-span-6 col-end-11 self-center shadow-xl">
                         <img src="/src/assets/PyNews.png" className="" />
-                    </p>
+                    </div>
                 </div>
             </div>
-            <div className="grid sm:grid-cols-2 md:grid-cols-4 p-4 max-w-[1240px] my-[20px] mx-auto">
-                <div className="grid grid-flow-row col-span-2">
-                    <p className="md:text-5xl sm:text-3xl text-2xl bg-gray-300 p-1/2 flex justify-around shadow-lg">
+            <div class="wrap max-w-[1240px] my-[20px] mx-auto p-4">
+                <div className="grid grid-cols-10">
+                    <div className="row-span-full col-start-1 col-span-6 self-center shadow-xl">
                         <img src="/src/assets/PyNews.png" className="" />
-                    </p>
-                </div>
-                <div className="mx-auto grid col-span-2 justify-center p-5 bg-[#FE5944] shadow-lg ">
-                    <p className="md:text-xl sm:text-l text-l font-bold p-3 text-[#FCFFFA]">
-                        Turbo Chat end-to-end encrypted chatroom
-                    </p>
-                    <p className="md:text-sm sm:text-sm text-sm p-3">
-                        PyNews is written with Python using the Flask framework.
-                        React was used for styling/managing the front end and
-                        Javascript was used in conjunction with Python to call
-                        the HackerNews API and sort the news. All information is
-                        stored in an SQLite database and run on an ubuntu server
-                        using nginx and gunicorn.
-                    </p>
-                    <p className="p-3 text-[#FCFFFA] font-bold">
-                        Python, SQLite, React, Javascript, APIs
-                    </p>
+                    </div>
+                    <div className="row-span-full col-span-6 col-start-6 col-end-11 self-center p-4 text-[#FCFFFA] bg-[#FE5944]">
+                        <p className="md:text-xl sm:text-l text-l font-bold p-3">
+                            Turbo Chat end-to-end encrypted chatroom
+                        </p>
+                        <p className="md:text-sm sm:text-sm text-sm p-3">
+                            PyNews is written with Python using the Flask
+                            framework. React was used for styling/managing the
+                            front end and Javascript was used in conjunction
+                            with Python to call the HackerNews API and sort the
+                            news. All information is stored in an SQLite
+                            database and run on an ubuntu server using nginx and
+                            gunicorn.
+                        </p>
+                        <p className="p-3 text-[#FCFFFA] font-bold">
+                            Python, SQLite, React, Javascript, APIs
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div className="grid sm:grid-cols-2 md:grid-cols-4 p-4 max-w-[1240px] my-[20px] mx-auto">
-                <div className="grid grid-flow-row col-span-2">
-                    <p className="md:text-5xl sm:text-3xl text-2xl bg-gray-300 p-1/2 flex justify-around shadow-lg">
+            <div class="wrap max-w-[1240px] my-[20px] mx-auto p-4">
+                <div className="grid grid-cols-10">
+                    <div className="z-20 row-span-full col-span-6 col-end-6 self-center p-4 bg-[#FE5944] text-[#FCFFFA]">
+                        <p className="md:text-xl sm:text-l text-l font-bold p-3">
+                            PyNews Full Stack Website
+                        </p>
+                        <p className="md:text-sm sm:text-sm text-sm p-3">
+                            PyNews is written with Python using the Flask
+                            framework. React was used for styling/managing the
+                            front end and Javascript was used in conjunction
+                            with Python to call the HackerNews API and sort the
+                            news. All information is stored in an SQLite
+                            database and run on an ubuntu server using nginx and
+                            gunicorn.
+                        </p>
+                        <p className="p-3 text-[#FCFFFA] font-bold">
+                            Python, SQLite, React, Javascript, APIs
+                        </p>
+                    </div>
+                    <div className="row-span-full col-span-6 col-end-11 self-center shadow-xl">
                         <img src="/src/assets/PyNews.png" className="" />
-                    </p>
-                </div>
-                <div className="mx-auto grid col-span-2 justify-center p-5 bg-[#FE5944] shadow-lg">
-                    <p className="md:text-xl sm:text-l text-l font-bold p-3 text-[#FCFFFA]">
-                        TF2 FLAN Charity Tournament Website
-                    </p>
-                    <p className="md:text-sm sm:text-sm text-sm p-3">
-                        PyNews is written with Python using the Flask framework.
-                        React was used for styling/managing the front end and
-                        Javascript was used in conjunction with Python to call
-                        the HackerNews API and sort the news. All information is
-                        stored in an SQLite database and run on an ubuntu server
-                        using nginx and gunicorn.
-                    </p>
-                    <p className="p-3 text-[#FCFFFA] font-bold">
-                        Python, SQLite, React, Javascript, APIs
-                    </p>
+                    </div>
                 </div>
             </div>
-            <div className="grid sm:grid-cols-2 md:grid-cols-4 p-4 max-w-[1240px] my-[20px] mx-auto">
-                <div className="mx-auto grid col-span-2 justify-center p-5 bg-[#FE5944] shadow-lg ">
-                    <p className="md:text-xl sm:text-l text-l font-bold p-3 text-[#FCFFFA]">
-                        Color Theme Picker
-                    </p>
-                    <p className="md:text-sm sm:text-sm text-sm p-3">
-                        PyNews is written with Python using the Flask framework.
-                        React was used for styling/managing the front end and
-                        Javascript was used in conjunction with Python to call
-                        the HackerNews API and sort the news. All information is
-                        stored in an SQLite database and run on an ubuntu server
-                        using nginx and gunicorn.
-                    </p>
-                    <p className="p-3 text-[#FCFFFA] font-bold">
-                        Python, SQLite, React, Javascript, APIs
-                    </p>
-                </div>
-                <div className="grid grid-flow-row col-span-2">
-                    <p className="md:text-5xl sm:text-3xl text-2xl bg-gray-300 p-1/2 flex justify-around shadow-lg">
+            <div class="wrap max-w-[1240px] my-[20px] mx-auto p-4">
+                <div className="grid grid-cols-10">
+                    <div className="row-span-full col-start-1 col-span-6 self-center border-[#FE5944] shadow-xl">
                         <img src="/src/assets/PyNews.png" className="" />
-                    </p>
-                </div>
-            </div>
-            <div className="grid sm:grid-cols-2 md:grid-cols-4 p-4 max-w-[1240px] my-[20px] mx-auto">
-                <div className="grid grid-flow-row col-span-2">
-                    <p className="md:text-5xl sm:text-3xl text-2xl bg-gray-300 p-1/2 flex justify-around shadow-lg">
-                        <img src="/src/assets/PyNews.png" className="" />
-                    </p>
-                </div>
-                <div className="mx-auto grid col-span-2 justify-center p-5 bg-[#FE5944] shadow-lg">
-                    <p className="md:text-xl sm:text-l text-l font-bold p-3 text-[#FCFFFA]">
-                        PyNews Full Stack Website
-                    </p>
-                    <p className="md:text-sm sm:text-sm text-sm p-3">
-                        PyNews is written with Python using the Flask framework.
-                        React was used for styling/managing the front end and
-                        Javascript was used in conjunction with Python to call
-                        the HackerNews API and sort the news. All information is
-                        stored in an SQLite database and run on an ubuntu server
-                        using nginx and gunicorn.
-                    </p>
-                    <p className="p-3 text-[#FCFFFA] font-bold">
-                        Python, SQLite, React, Javascript, APIs
-                    </p>
+                    </div>
+                    <div className="row-span-full col-span-6 col-start-6 col-end-11 self-center p-4 text-[#FCFFFA] bg-[#FE5944]">
+                        <p className="md:text-xl sm:text-l text-l font-bold p-3">
+                            TF2 FLAN Charity Tournament Website
+                        </p>
+                        <p className="md:text-sm sm:text-sm text-sm p-3">
+                            PyNews is written with Python using the Flask
+                            framework. React was used for styling/managing the
+                            front end and Javascript was used in conjunction
+                            with Python to call the HackerNews API and sort the
+                            news. All information is stored in an SQLite
+                            database and run on an ubuntu server using nginx and
+                            gunicorn.
+                        </p>
+                        <p className="p-3 text-[#FCFFFA] font-bold">
+                            Python, SQLite, React, Javascript, APIs
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
