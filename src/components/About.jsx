@@ -9,7 +9,7 @@ const About = () => {
             />
             <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-6 p-4">
                 <div className="p-16 grid grid-flow-row bg-[#FCFFFA] rounded-3xl col-span-2 shadow-lg">
-                    <p className="md:text-3xl sm:text-2xl text-xl text-[#fe5944] font-bold ">
+                    <p className="md:text-3xl sm:text-2xl text-xl text-[#fe5944] font-extrabold">
                         About me
                     </p>
                     <p className="text-[black]">

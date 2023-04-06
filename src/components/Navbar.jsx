@@ -9,12 +9,12 @@ const Navbar = () => {
     };
 
     return (
-        <div className="bg-[#f5f5f5] backdrop-filter backdrop-blur-lg bg-opacity-40 flex justify-center items-center h-24 fill mx-auto px-4 sticky top-0 z-50 shadow">
-            <div className="bg-[#ebebeb] text-black flex justify-center items-center rounded-full p-1">
-                <ul class="flex">
+        <div className="bg-[#f5f5f5] backdrop-filter backdrop-blur-lg bg-opacity-40 flex justify-center items-center h-24 fill mx-auto -my-10 px-4 sticky top-0 z-50 shadow">
+            <div className="bg-[#fe5944] text-[#FCFFFA] flex justify-center items-center rounded-full p-1">
+                <ul className="flex">
                     <li>
                         <a
-                            class="inline-block rounded-full py-1 px-4 active:bg-[#ffffff]"
+                            className="inline-block rounded-full py-1 px-4 font-medium bg-[#b84030]"
                             href="#"
                         >
                             Home
@@ -22,15 +22,7 @@ const Navbar = () => {
                     </li>
                     <li>
                         <a
-                            class="inline-block rounded-full py-1 px-4 active:bg-white"
-                            href="#"
-                        >
-                            About
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            class="inline-block rounded-full py-1 px-4 active:bg-white"
+                            className="inline-block rounded-full py-1 px-4 font-medium active:bg-[#b84030]"
                             href="#"
                         >
                             Projects
@@ -38,7 +30,7 @@ const Navbar = () => {
                     </li>
                     <li>
                         <a
-                            class="inline-block rounded-full py-1 px-4 active:bg-white"
+                            className="inline-block rounded-full py-1 px-4 font-medium active:bg-[#b84030]"
                             href="#"
                         >
                             Contact
